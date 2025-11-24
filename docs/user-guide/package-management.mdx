@@ -1,0 +1,27 @@
+---
+title: Package Management
+description: Declarative package management in MyDE
+sidebar_position: 2
+---
+
+<div style={{ textAlign: "center" }}>
+    <p>Package Management in MyDE.</p>
+</div>
+
+
+## Overview
+
+MyDE provides [`nix`](https://nixos.org/) like declarative package management, with some additional benefits.
+
+
+## Brief
+
+In the heart, we use `mypm` for interactive management. It's a wrapper for [MyCTL](./myctl.mdx).
+
+### Package Management
+
+- Search package: `mypm <pkg_name>`
+- Install package: `mypm add <pkg_name>`
+- Remove package: `mypm rm/remove <pkg_name>`
+- Update system: `mypm update [<pkg_name>]`
+- Lock a package version: `mypm lock <pkg_name>` (will be implemented soon)
