@@ -1,5 +1,5 @@
 name: Deploy to GitHub Pages
-run-name: "Deploy from: ${{ github.ref }}"
+run-name: "Deploy wiki from: ${{ github.sha }}"
 
 concurrency:
   group: deploy-docs-${{ github.ref }}
