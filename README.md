@@ -42,7 +42,7 @@ We welcome contributions to improve the MyDE documentation! Here's how you can h
 
 - **Main Repository**: [mydehq/MyDE](https://github.com/mydehq/MyDE)
 - **Control CLI**: [mydehq/MyCTL](https://github.com/mydehq/MyCTL)
-- **KireiSakura-Kit**: [Dependency Library](https://soymadip.github.io/KireiSakura-Kit)
+- **Dependency Library**: [soymadip/KireiSakura Kit](https://soymadip.github.io/KireiSakura-Kit)
 
 ---
 
